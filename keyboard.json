@@ -1,14 +1,18 @@
 {
     "keyboard_name": "4x2new",
 	"maintainer": "Timception",
-    "url": "https://github.com/Timception/Drift",
+    "url": "https://github.com/timception/4x2new/",
     "manufacturer": "Timception",
     "usb": {
         "vid": "0x5965",
         "pid": "0x6D6A",
         "device_version": "0.0.1"
-    },    
+    },
+	"rgblight": {
+        "led_count": 4		
+	},
     "ws2812": {
+		"driver": "vendor",
         "pin": "GP7"
     },    
 	"processor": "RP2040",

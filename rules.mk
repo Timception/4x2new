@@ -36,7 +36,8 @@ MOUSEKEY_ENABLE			= no
 SPACE_CADET_ENABLE		= no
 #MAGIC_ENABLE			= no
 BLUETOOTH_ENABLE		= no		# Enable Bluetooth
-#RGBLIGHT_ENABLE			= no		# Enable keyboard RGB underglow
+RGBLIGHT_ENABLE			= yes		# Enable keyboard RGB underglow
+#WS2812_DRIVER_REQUIRED	= yes
 #BACKLIGHT_ENABLE		= no		# Enable keyboard backlight functionality
 
 # Build Options
@@ -45,7 +46,7 @@ EXTRAKEY_ENABLE			= yes		# Audio control and System control
 GRAVE_ESC_ENABLE		= yes
 #RGBLIGHT_SUPPORTED		= yes
 #RGB_MATRIX_SUPPORTED	= yes
-#RGB_MATRIX_ENABLE		= yes
+#RGB_MATRIX_ENABLE		= yes		# Enable keyboard RGB Matrix etc.
 #RGB_MATRIX_DRIVER		= WS2812
 
 

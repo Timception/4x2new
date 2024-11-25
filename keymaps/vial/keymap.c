@@ -30,8 +30,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
  
    [_BASE] = LAYOUT(
  
-    LCTL(KC_C), LCTL(KC_X), SGUI(KC_S), TO(1),
-	LCTL(KC_V), LCTL(KC_Z), KC_F5,      TO(3),
+    LCTL(KC_C), LCTL(KC_X), SGUI(KC_S), UG_NEXT,
+	LCTL(KC_V), LCTL(KC_Z), KC_F5,      UG_PREV,
 	LGUI(KC_TAB)
  ),
 
