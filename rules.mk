@@ -37,7 +37,6 @@ SPACE_CADET_ENABLE		= no
 #MAGIC_ENABLE			= no
 BLUETOOTH_ENABLE		= no		# Enable Bluetooth
 RGBLIGHT_ENABLE			= yes		# Enable keyboard RGB underglow
-#WS2812_DRIVER_REQUIRED	= yes
 #BACKLIGHT_ENABLE		= no		# Enable keyboard backlight functionality
 
 # Build Options
