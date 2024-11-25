@@ -1,0 +1,43 @@
+{
+    "keyboard_name": "4x2new",
+	"maintainer": "Timception",
+    "url": "https://github.com/Timception/Drift",
+    "manufacturer": "Timception",
+    "usb": {
+        "vid": "0x5965",
+        "pid": "0x6D6A",
+        "device_version": "0.0.1"
+    },    
+    "ws2812": {
+        "pin": "GP7"
+    },    
+	"processor": "RP2040",
+    "bootloader": "rp2040",
+    "diode_direction": "COL2ROW",
+    "matrix_pins": {
+        "cols": ["GP26", "GP22", "GP20", "GP23"],
+        "rows": ["GP28", "GP27", "GP29"]
+    },
+	
+	"encoder": {
+        "rotary": [
+            {"pin_a": "GP5", "pin_b": "GP4"}
+        ]
+    },
+    
+    "layouts": {
+        "LAYOUT": {
+            "layout": [
+                {"matrix": [0,0], "x":1.75, "y":0}, 
+				{"matrix": [0,1], "x":3, "y":0}, 
+				{"matrix": [0,2], "x":4.25, "y":0}, 
+				{"matrix": [0,3], "x":5.5, "y":0},
+				{"matrix": [2,0], "x":0, "y":1.25}, 
+				{"matrix": [1,0], "x":1.75, "y":1.25}, 
+				{"matrix": [1,1], "x":3, "y":1.25}, 
+				{"matrix": [1,2], "x":4.25, "y":1.25}, 
+				{"matrix": [1,3], "x":5.5, "y":1.25}
+            ]
+        }
+    }
+}
