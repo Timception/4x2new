@@ -79,3 +79,33 @@ const uint16_t PROGMEM encoder_map[][NUM_ENCODERS][2] = {
 // E N D  E N C O D E R 
 
 
+// R G B  M A T R I X
+
+bool rgb_matrix_indicators_advanced_user(uint8_t led_min, uint8_t led_max) {
+	//const int led_index = 2;
+	switch(get_highest_layer(layer_state|default_layer_state)) {
+		case 0:
+			rgb_matrix_enable();
+            rgb_matrix_set_color(1, 0, 0, 0);
+            rgb_matrix_set_color(2, 0, 0, 0);
+            rgb_matrix_set_color(3, 0, 0, 0);
+            break;
+        case 1:
+			rgb_matrix_enable();
+            rgb_matrix_set_color(2, 0, 0, 0);
+            rgb_matrix_set_color(3, 0, 0, 0);
+            break;
+        case 2:
+			rgb_matrix_enable();
+            rgb_matrix_set_color(3, 0, 0, 0);
+            break;
+        case 3:
+			rgb_matrix_enable();
+            break;
+        default:
+            break;
+	}
+	return false;
+}
+
+// E N D  R G B  M A T R I X

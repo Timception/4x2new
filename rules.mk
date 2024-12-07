@@ -36,7 +36,7 @@ MOUSEKEY_ENABLE			= no
 SPACE_CADET_ENABLE		= no
 #MAGIC_ENABLE			= no
 BLUETOOTH_ENABLE		= no		# Enable Bluetooth
-RGBLIGHT_ENABLE			= yes		# Enable keyboard RGB underglow
+RGBLIGHT_ENABLE			= no		# Enable keyboard RGB underglow
 #BACKLIGHT_ENABLE		= no		# Enable keyboard backlight functionality
 
 # Build Options
@@ -44,12 +44,12 @@ BOOTMAGIC_ENABLE		= yes		# Virtual DIP switch configuration
 EXTRAKEY_ENABLE			= yes		# Audio control and System control
 GRAVE_ESC_ENABLE		= yes
 #RGBLIGHT_SUPPORTED		= yes
-#RGB_MATRIX_SUPPORTED	= yes
+RGB_MATRIX_SUPPORTED	= yes
 #RGB_MATRIX_ENABLE		= yes		# Enable keyboard RGB Matrix etc.
 #RGB_MATRIX_DRIVER		= WS2812
 
 
 # Do not enable SLEEP_LED_ENABLE because it uses the same timer as BACKLIGHT_ENABLE
-SLEEP_LED_ENABLE		= no
+#SLEEP_LED_ENABLE		= no
 # If this doesn't work, see here: https://github.com/tmk/tmk_keyboard/wiki/FAQ#nkro-doesnt-work
 NKRO_ENABLE				= yes
